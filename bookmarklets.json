@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Auto bump Scratch topic",
+        "code": "javascript:\ndocument.getElementsByClassName(\"markup\")[0].value = \"Bump\"; \ndocument.getElementsByClassName(\"button grey\")[2].click();"
+    },
+    {
+        "name": "Auto click post button",
+        "code": "javascript:document.getElementsByClassName(\"button grey\")[2].click();"
+    },
+    {
+        "name": "Open Scratch project in Turbowarp",
+        "code": "javascript: window.location.href = \"https://turbowarp.org/\" + window.location.href.substring(33);"
+    },
+    {
+        "name": "Redirect to Scratch project",
+        "code": "javascript:var Scratch_Project_Id = prompt(\"Write the Number of the Scratch Project you would like to go to\"); window.location.href=\"https://scratch.mit.edu/projects/\"+Scratch_Project_Id+\"/\";"
+    },
+    {
+        "name": "Redirect to Scratch user",
+        "code": "javascript:var user = prompt(\"What User Do You want to go to?\"); window.location.href=\"https://scratch.mit.edu/users/\"+user+\"/\";"
+    },
+    {
+        "name": "Share Scratch project",
+        "code": "javascript:document.getElementsByClassName(\"banner-button\")[0].click();"
+    }
+]
