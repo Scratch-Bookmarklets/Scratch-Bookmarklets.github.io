@@ -12,10 +12,6 @@
         "code": "javascript: window.location.href = \"https://turbowarp.org/\" + window.location.href.substring(33);"
     },
     {
-        "name": "Redirect to Scratch project",
-        "code": "javascript:var Scratch_Project_Id = prompt(\"Write the Number of the Scratch Project you would like to go to\"); window.location.href=\"https://scratch.mit.edu/projects/\"+Scratch_Project_Id+\"/\";"
-    },
-    {
         "name": "Redirect to Scratch user",
         "code": "javascript:var user = prompt(\"What User Do You want to go to?\"); window.location.href=\"https://scratch.mit.edu/users/\"+user+\"/\";"
     },
