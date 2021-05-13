@@ -9,7 +9,7 @@
         <div id = "bookmarklets"></div>
         <script>
                 let bookmarkletsDiv = document.querySelector("#bookmarklets");
-                fetch("bookmarklets.json").then(res => res.json()).then(data => {
+                fetch("https://scratch-bookmarklets.github.io/bookmarklets.json").then(res => res.json()).then(data => {
                     for (let item in data) {
                         let newDiv = document.createElement("div");
                         newDiv.innerHTML = `<h1>${data[item].name}</h1>
