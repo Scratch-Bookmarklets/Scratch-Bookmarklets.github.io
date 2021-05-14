@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Scratch Console Bookmarklets</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <p>Hello! These are bookmarklets you can use to easily do things around the Scratch website.</p>
+        <div id = "bookmarklets"></div>
+        <script>
+                let bookmarkletsDiv = document.querySelector("#bookmarklets");
+                fetch("https://scratch-bookmarklets.github.io/bookmarklets.json").then(res => res.json()).then(data => {
+                    for (let item in data) {
+                        let newDiv = document.createElement("div");
+                        newDiv.innerHTML = `<h1>${data[item].name}</h1>
+                        <textarea id = "item${item}">${data[item].code}</textarea>`;
+                        bookmarkletsDiv.appendChild(newDiv);
+                        document.querySelector("#item" + item).addEventListener("click", function() {
+                            this.select();
+                        });
+                    }
+                }).catch(e => console.error(e));
+        </script>
+    </body>
+</html>
