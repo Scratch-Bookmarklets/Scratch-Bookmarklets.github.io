@@ -13,11 +13,8 @@
                     for (let item in data) {
                         let newDiv = document.createElement("div");
                         newDiv.innerHTML = `<h1>${data[item].name}</h1>
-                        <textarea id = "item${item}" readonly = "true">${data[item].code}</textarea>`;
+                        <textarea id = "item${item}">${data[item].code}</textarea>`;
                         bookmarkletsDiv.appendChild(newDiv);
-                        document.querySelector("#item" + item).addEventListener("click", function() {
-                            this.select();
-                        });
                     }
                 }).catch(e => console.error(e));
         </script>
