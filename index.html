@@ -1,26 +1,36 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Home - Scratch Console Bookmarklets</title>
-        <link rel="stylesheet" href="style.css" />
-        <link rel="icon" type="image/png" href="/img/scratchbookmarklets.png">
-    </head>
-    <body>
-        <p>Hello! These are bookmarklets you can use to easily do things around the Scratch website.</p>
-        <div id = "bookmarklets"></div>
-        <script>
-                let bookmarkletsDiv = document.querySelector("#bookmarklets");
-                fetch("https://scratch-bookmarklets.github.io/bookmarklets.json").then(res => res.json()).then(data => {
-                    for (let item in data) {
-                        let newDiv = document.createElement("div");
-                        newDiv.innerHTML = `<h1>${data[item].name}</h1>
-                        <textarea id = "item${item}" readonly = "true">${data[item].code}</textarea>`;
-                        bookmarkletsDiv.appendChild(newDiv);
-                        document.querySelector("#item" + item).addEventListener("click", function() {
-                            this.select();
-                        });
-                    }
-                }).catch(e => console.error(e));
-        </script>
-    </body>
-</html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="scratchbookmarklets.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Home - Scratch Bookmarklets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  </head>
+<body>
+<nav>
+    <div class="logo">
+        <h4>Scratch Bookmarklets</h4>
+    </div>
+    <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contributors</a></li>
+        <li><a href="#">Projects</a></li>
+    </ul>
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+</nav>
+  <script src="script.js"></script>
+  </body>
+  <footer>
+    <a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io"><img src="https://simpleicons.org/icons/github.svg" width=20 alt="Source Code"></a>
+    <a href="https://code.visualstudio.com/download"><img src="https://simpleicons.org/icons/visualstudiocode.svg" width=20 alt="Download Visual Studio Code"></a>
+    <p class="footer-info1">© Copyright 2021 Scratch Bookmarklets. All rights reserved</p>
+  </footer>
+<html>
