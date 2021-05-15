@@ -12,7 +12,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #5D4954;
+    background-color: #fcba03;
     font-family: "Poppins", sans-serif;
 }
 
@@ -69,7 +69,7 @@ nav {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: #5D4954;
+        background-color: #fcba03;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -116,5 +116,22 @@ nav {
 }
 
 footer {
+    text-align: center;
+}
+
+body {
+    background-color: #347deb;
+    font-family: "Poppins", sans-serif;
+}
+
+.moto {
+    text-align: center;
+}
+
+.features {
+    text-align: center;
+}
+
+.features-h1 {
     text-align: center;
 }
