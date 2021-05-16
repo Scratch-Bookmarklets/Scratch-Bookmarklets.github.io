@@ -3,8 +3,7 @@ name: Feature Request
 about: Tell Us about a new feature You would like to see.
 title: 'Feature Request: '
 labels: 'Enhancement'
-assignees: 'Shluffy'
-
+assignees: 'Shluffy, gosoccerboy5, ZI-Youtuber'
 ---
 
 **Feature**
