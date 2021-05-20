@@ -12,7 +12,5 @@ The site that contains a place to copy the bookmarklets code from, as well as mo
 <hr/>
 <img src="https://avatars.githubusercontent.com/u/81493936?s=96&v=4" alt="xItzDiamondx PFP" width="75"><p>NotDiamondZ:<br>Member, Lead Website Developer</p>
 <hr/>
-<img src="https://avatars.githubusercontent.com/u/82158378?s=96&v=4" alt="ZI-YouTuber PFP" width="75"><p>ZI-Youtuber:<br>Member, Developer</p>
-<hr/>
 <img src="https://avatars.githubusercontent.com/u/82768218?s=96&v=4" alt="gosoccerboy5 PFP" width="75"><p>gosoccerboy5:<br>Member, Lead Developer</p>
 <hr/>
