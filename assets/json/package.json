@@ -1,0 +1,16 @@
+{
+  "name": "Scratch Bookmarklets",
+  "description": "Bookmarklets to use on Scratch",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io"
+  },
+  "keywords": ["scratch bookmarklets", "bookmarklets", "scratch", "shluffy", "xitzdiamondx", "gosoccerboy5"],
+  "author": "Shluffy",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/issues"
+  },
+  "homepage": "Scratch-Bookmarklets.github.io"
+}
