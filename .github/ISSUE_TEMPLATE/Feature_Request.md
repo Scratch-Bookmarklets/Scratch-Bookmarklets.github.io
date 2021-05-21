@@ -2,7 +2,7 @@
 name: Feature Request
 about: Tell Us about a new feature You would like to see.
 title: 'Feature Request: '
-labels: 'Enhancement'
+labels: 'enhancement'
 assignees: 'Shluffy'
 
 ---
