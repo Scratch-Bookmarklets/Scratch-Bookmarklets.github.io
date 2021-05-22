@@ -9,12 +9,12 @@
         <div id="bookmarklets"></div>
         <script>
             let bookmarkletsDiv = document.querySelector("#bookmarklets");
-            fetch(`/bookmarklets/bookmarklets.json`).then(res => res.json()).then(async bookmarklets => {
+            fetch(`bookmarklets/bookmarklets.json`).then(res => res.json()).then(async bookmarklets => {
                 for (let j=0;j<bookmarklets.length;j++) {
                     let name = bookmarklets[j]
-                    let manifest = await fetch(`/bookmarklets/${name}/manifest.json`).then(res => res.json())
+                    let manifest = await fetch(`bookmarklets/${name}/manifest.json`).then(res => res.json())
                     
-                    let javascript = await fetch(`/bookmarklets/${name}/bookmarklet.js`).then(res => res.text())
+                    let javascript = await fetch(`bookmarklets/${name}/bookmarklet.js`).then(res => res.text())
                     
                     let newDiv = document.createElement("div")
                     let authors = ""
