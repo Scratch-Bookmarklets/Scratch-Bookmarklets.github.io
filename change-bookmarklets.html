@@ -6,17 +6,26 @@
     </head>
     <body>
         <p>Hello! These are bookmarklets you can use to easily do things around the Scratch website.</p>
-        <div id = "bookmarklets"></div>
+        <div id="bookmarklets"></div>
         <script>
-                let bookmarkletsDiv = document.querySelector("#bookmarklets");
-                fetch("https://scratch-bookmarklets.github.io/bookmarklets.json").then(res => res.json()).then(data => {
-                    for (let item in data) {
-                        let newDiv = document.createElement("div");
-                        newDiv.innerHTML = `<h1>${data[item].name}</h1>
-                        <textarea id = "item${item}">${data[item].code}</textarea>`;
-                        bookmarkletsDiv.appendChild(newDiv);
+            let bookmarkletsDiv = document.querySelector("#bookmarklets");
+            fetch(`/bookmarklets/bookmarklets.json`).then(res => res.json()).then(async bookmarklets => {
+                for (let j=0;j<bookmarklets.length;j++) {
+                    let name = bookmarklets[j]
+                    let manifest = await fetch(`/bookmarklets/${name}/manifest.json`).then(res => res.json())
+                    
+                    let javascript = await fetch(`/bookmarklets/${name}/bookmarklet.js`).then(res => res.text())
+                    
+                    let newDiv = document.createElement("div")
+                    let authors = ""
+                    for (let j in manifest.authors) {
+                        authors += `<a href="${manifest.authors[j].url}">${manifest.authors[j].name}</a>`
                     }
-                }).catch(e => console.error(e));
+                    newDiv.innerHTML = `<h1>${manifest.name}</h1><h3>by ${authors}</h3>
+                    <textarea id="item${j}>javascript:${javascript}void(0);</textarea>`
+                    bookmarkletsDiv.appendChild(newDiv)
+                }
+            })
         </script>
     </body>
 </html>
