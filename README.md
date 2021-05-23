@@ -15,5 +15,5 @@ The site that contains a place to copy the bookmarklets code from, as well as mo
 <img src="https://avatars.githubusercontent.com/u/82768218?s=96&v=4" alt="gosoccerboy5 PFP" width="75"><p>gosoccerboy5:<br>Member, Lead Developer</p>
 <hr/>
 <img src="https://avatars.githubusercontent.com/u/79854224?s=64&v=4" alt="brourbeinsus PFP" width="75"><p>brourbeinsus:<br>Outside Collaborator</p>
-<br>
+<hr/>
 <img src="https://avatars.githubusercontent.com/u/67440879?s=64&v=4" alt="FunctionalMetable" width="75"><p>FunctionalMetable:<br>Outside Collaborator</p>
