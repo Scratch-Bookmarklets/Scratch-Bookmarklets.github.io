@@ -24,9 +24,10 @@
         <p>Hello! These are bookmarklets you can use to easily do things around the Scratch website.</p>
         <div id="bookmarklets"></div>
         <script>
-            let host = location.hostname == "scratch-bookmarklets.github.io" ? ""
-            host = (host.search("github.io") !== 1) ? location.hostname + "/Scratch-Bookmarklets.github.io" : ""
-            if (host == "") host = "Scratch-Bookmarklets.github.io"
+            let host = location.hostname == "scratch-bookmarklets.github.io" ? "" : location.hostname
+            
+            if (host.search("github.io") !== -1) host = (location.hostname + "/Scratch-Bookmarklets.github.io");
+            if (host == "") host = "Scratch-Bookmarklets.github.io";
             host = "https://" + host
             let bookmarkletsDiv = document.querySelector("#bookmarklets");
             fetch(`${host}/bookmarklets/bookmarklets.json`).then(res => res.json()).then(async bookmarklets => {
