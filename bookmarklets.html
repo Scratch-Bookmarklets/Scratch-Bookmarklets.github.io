@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scratch Console Bookmarklets</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav>
+    <div class="logo">
+        <h4>Scratch Bookmarklets</h4>
+    </div>
+    <ul class="nav-links">
+        <li><a href="https://scratch-bookmarlets.github.io/bookmarklets/">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contributors.html">Contributors</a></li>
+        <li><a href="projects.html">Projects</a></li>
+    </ul>
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+</nav>
+        <p>Hello! These are bookmarklets you can use to easily do things around the Scratch website.</p>
+        <div id="bookmarklets"></div>
+        <script>
+            let host = location.hostname
+            if (host == "") host = "Scratch-Bookmarklets.github.io"
+            host = "https://" + host
+            let bookmarkletsDiv = document.querySelector("#bookmarklets");
+            fetch(`${host}/bookmarklets/bookmarklets.json`).then(res => res.json()).then(async bookmarklets => {
+                for (let j=0;j<bookmarklets.length;j++) {
+                    let name = bookmarklets[j]
+                    let manifest = await fetch(`${host}/bookmarklets/${name}/manifest.json`).then(res => res.json())
+                    
+                    let javascript = await fetch(`${host}/bookmarklets/${name}/bookmarklet.js`).then(res => res.text())
+                    
+                    let newDiv = document.createElement("div")
+                    let authors = ""
+                    for (let j in manifest.authors) {
+                        authors += `<a href="${manifest.authors[j].url}">${manifest.authors[j].name}</a> ,`
+                    }
+                    newDiv.innerHTML = `<h1>${manifest.name}</h1><h3>by ${authors}</h3>
+                    <textarea id="item${j}">javascript:${javascript.replace(/\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$/gm, "$1").replace(/\r?\n|\r/g, "")}void(0);</textarea>`
+                    bookmarkletsDiv.appendChild(newDiv)
+                }
+            })
+        </script>
+    </body>
+</html>
