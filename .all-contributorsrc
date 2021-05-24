@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "FunctionalMetatable",
+      "name": "FunctionalMetatable",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67440879?v=4",
+      "profile": "http://scratch.mit.edu/users/9gr",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Scratch-Bookmarklets.github.io",
+  "projectOwner": "Scratch-Bookmarklets",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
