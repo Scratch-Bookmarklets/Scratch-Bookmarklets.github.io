@@ -31,7 +31,12 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/81493936?v=4",
       "profile": "http://xitzdiamondx.github.io",
       "contributions": [
-        "design"
+        "design",
+        "infra",
+        "bug",
+        "ideas",
+        "code",
+        "test"
       ]
     }
   ],
