@@ -79,6 +79,15 @@
         "code",
         "test"
       ]
+    },
+    {
+      "login": "ZI-Youtuber",
+      "name": "ZI Coder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82158378?v=4",
+      "profile": "https://zi-youtuber.github.io/My-Website-1/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
