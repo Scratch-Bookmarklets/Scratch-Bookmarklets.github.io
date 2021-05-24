@@ -12,7 +12,11 @@
       "profile": "http://Shluffy.github.io",
       "contributions": [
         "test",
-        "code"
+        "code",
+        "design",
+        "infra",
+        "bug",
+        "ideas"
       ]
     },
     {
