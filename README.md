@@ -1,6 +1,6 @@
 # Scratch-Bookmarklets.github.io
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 The site that contains a place to copy the bookmarklets code from, as well as more about the team
 
@@ -32,6 +32,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://Shluffy.github.io"><img src="https://avatars.githubusercontent.com/u/81823039?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ShluffyMonster</b></sub></a><br /><a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=Shluffy" title="Tests">⚠️</a> <a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=Shluffy" title="Code">💻</a></td>
     <td align="center"><a href="http://scratch.mit.edu/users/9gr"><img src="https://avatars.githubusercontent.com/u/67440879?v=4?s=100" width="100px;" alt=""/><br /><sub><b>FunctionalMetatable</b></sub></a><br /><a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=FunctionalMetatable" title="Code">💻</a> <a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=FunctionalMetatable" title="Tests">⚠️</a></td>
+    <td align="center"><a href="http://xitzdiamondx.github.io"><img src="https://avatars.githubusercontent.com/u/81493936?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zack</b></sub></a><br /><a href="#design-xItzDiamondx" title="Design">🎨</a></td>
   </tr>
 </table>
 
