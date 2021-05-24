@@ -135,3 +135,10 @@ body {
 .features-h1 {
     text-align: center;
 }
+
+.404 {
+    text-align: center;
+}
+.text {
+    font-family: "Poppins", sans-serif;
+}
