@@ -16,7 +16,8 @@
         "design",
         "infra",
         "bug",
-        "ideas"
+        "ideas",
+        "content"
       ]
     },
     {
@@ -49,6 +50,20 @@
         "bug",
         "ideas",
         "code",
+        "test",
+        "content"
+      ]
+    },
+    {
+      "login": "xItzDiamondx",
+      "name": "Zack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81493936?v=4",
+      "profile": "http://xitzdiamondx.github.io",
+      "contributions": [
+        "content",
+        "code",
+        "design",
+        "bug",
         "test"
       ]
     }
