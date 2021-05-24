@@ -1,0 +1,89 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Shluffy",
+      "name": "ShluffyMonster",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81823039?v=4",
+      "profile": "http://Shluffy.github.io",
+      "contributions": [
+        "test",
+        "code",
+        "design",
+        "infra",
+        "bug",
+        "ideas",
+        "content"
+      ]
+    },
+    {
+      "login": "FunctionalMetatable",
+      "name": "FunctionalMetatable",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67440879?v=4",
+      "profile": "http://scratch.mit.edu/users/9gr",
+      "contributions": [
+        "code",
+        "test",
+        "question"
+      ]
+    },
+    {
+      "login": "all-contributors",
+      "name": "All Contributors",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46410174?v=4",
+      "profile": "https://allcontributors.org",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "gosoccerboy5",
+      "name": "gosoccerboy5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82768218?v=4",
+      "profile": "http://gosoccerboy5.github.io",
+      "contributions": [
+        "design",
+        "infra",
+        "bug",
+        "ideas",
+        "code",
+        "test",
+        "content"
+      ]
+    },
+    {
+      "login": "xItzDiamondx",
+      "name": "Zack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81493936?v=4",
+      "profile": "http://xitzdiamondx.github.io",
+      "contributions": [
+        "content",
+        "code",
+        "design",
+        "bug",
+        "test"
+      ]
+    },
+    {
+      "login": "brourbeinsus",
+      "name": "brourbeinsus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79854224?v=4",
+      "profile": "https://scratch.mit.edu/users/brourbeinsus/",
+      "contributions": [
+        "code",
+        "test",
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Scratch-Bookmarklets.github.io",
+  "projectOwner": "Scratch-Bookmarklets",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
