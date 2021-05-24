@@ -67,7 +67,8 @@
         "design",
         "bug",
         "test",
-        "infra"
+        "infra",
+        "maintenance"
       ]
     },
     {
