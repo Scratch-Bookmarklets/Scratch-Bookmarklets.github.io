@@ -7,9 +7,9 @@
   "contributors": [
     {
       "login": "Shluffy",
-      "name": "ShluffyMonster",
+      "name": "Shluffy",
       "avatar_url": "https://avatars.githubusercontent.com/u/81823039?v=4",
-      "profile": "http://Shluffy.github.io",
+      "profile": "http://github.com/shluffy/",
       "contributions": [
         "test",
         "code",
@@ -28,7 +28,8 @@
       "contributions": [
         "code",
         "test",
-        "question"
+        "question",
+        "infra"
       ]
     },
     {
@@ -75,8 +76,7 @@
       "profile": "https://scratch.mit.edu/users/brourbeinsus/",
       "contributions": [
         "code",
-        "test",
-        "bug"
+        "test"
       ]
     }
   ],
