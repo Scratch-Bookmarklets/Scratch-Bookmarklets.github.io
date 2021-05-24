@@ -8,19 +8,6 @@ The site that contains a place to copy the bookmarklets code from, as well as mo
 
 ## See the LIVE site at [scratch-bookmarklets.github.io](https://scratch-bookmarklets.github.io)
 
-### Contributors
-
-<hr/>
-<img src="https://avatars.githubusercontent.com/u/81823039?s=96&v=4" alt="Shluffy PFP" width="75"><p>Shluffy:<br>Owner, Executive Lead Developer, Bookmarklet Lead Developer</p>
-<hr/>
-<img src="https://avatars.githubusercontent.com/u/81493936?s=96&v=4" alt="xItzDiamondx PFP" width="75"><p>NotDiamondZ:<br>Member, Lead Website Developer</p>
-<hr/>
-<img src="https://avatars.githubusercontent.com/u/82768218?s=96&v=4" alt="gosoccerboy5 PFP" width="75"><p>gosoccerboy5:<br>Member, Lead Developer</p>
-<hr/>
-<img src="https://avatars.githubusercontent.com/u/79854224?s=64&v=4" alt="brourbeinsus PFP" width="75"><p>brourbeinsus:<br>Outside Collaborator</p>
-<hr/>
-<img src="https://avatars.githubusercontent.com/u/67440879?s=64&v=4" alt="FunctionalMetable" width="75"><p>FunctionalMetable:<br>Outside Collaborator</p>
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
