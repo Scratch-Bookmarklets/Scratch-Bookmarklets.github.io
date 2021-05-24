@@ -51,6 +51,19 @@
         "code",
         "test"
       ]
+    },
+    {
+      "login": "xItzDiamondx",
+      "name": "Zack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81493936?v=4",
+      "profile": "http://xitzdiamondx.github.io",
+      "contributions": [
+        "content",
+        "code",
+        "design",
+        "bug",
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7,
