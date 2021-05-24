@@ -24,6 +24,20 @@
         "code",
         "test"
       ]
+    },
+    {
+      "login": "gosoccerboy5",
+      "name": "gosoccerboy5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82768218?v=4",
+      "profile": "http://gosoccerboy5.github.io",
+      "contributions": [
+        "design",
+        "infra",
+        "bug",
+        "ideas",
+        "code",
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7,
