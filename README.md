@@ -2,7 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-The site that contains a place to copy the bookmarklets code from, as well as more about the team
+The site that contains a place to copy the bookmarklets code from, as well as more about the team.
 
 <img src="https://user-images.githubusercontent.com/81493936/118314988-839db680-b4ba-11eb-970d-1a9d380a10af.png" width="1000">
 
