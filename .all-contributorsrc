@@ -67,6 +67,17 @@
         "bug",
         "test"
       ]
+    },
+    {
+      "login": "brourbeinsus",
+      "name": "brourbeinsus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79854224?v=4",
+      "profile": "https://scratch.mit.edu/users/brourbeinsus/",
+      "contributions": [
+        "code",
+        "test",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
