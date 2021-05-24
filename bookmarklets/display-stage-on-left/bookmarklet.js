@@ -1,3 +1,4 @@
+if (parser.hostname === scratch.mit.edu) {
 let style = document.createElement("style")
 
 style.innerHTML = `
@@ -65,3 +66,7 @@ style.innerHTML = `
 }`
 
 document.body.appendChild(style)
+  }
+else {
+alert("Please click the bookmarklet on the scratch website (scratch.mit.edu)")
+}
