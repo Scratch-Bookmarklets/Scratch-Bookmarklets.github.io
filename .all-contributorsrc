@@ -1,6 +1,7 @@
 {
   "files": [
-    "README.md"
+    "README.md",
+    "contributors.html"
   ],
   "imageSize": 100,
   "commit": false,
@@ -17,7 +18,9 @@
         "infra",
         "bug",
         "ideas",
-        "content"
+        "content",
+        "maintenance",
+        "projectManagement"
       ]
     },
     {
