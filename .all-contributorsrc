@@ -95,6 +95,15 @@
         "bug",
         "doc"
       ]
+    },
+    {
+      "login": "Scratch-bookmarklets",
+      "name": "Scratch-bookmarklets",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84034156?v=4",
+      "profile": "https://github.com/Scratch-Bookmarklets",
+      "contributions": [
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7,
