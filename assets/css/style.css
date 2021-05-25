@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 nav {
@@ -128,11 +129,11 @@ body {
     text-align: center;
 }
 
-.features {
+.whyuse {
     text-align: center;
 }
 
-.features-h1 {
+.whyuse-h1 {
     text-align: center;
 }
 
