@@ -1,5 +1,5 @@
 name: "GreetContributor"
-on: workflow_dispatch
+on: 
     pull_request:
       types: [opened,synchronize]
     
