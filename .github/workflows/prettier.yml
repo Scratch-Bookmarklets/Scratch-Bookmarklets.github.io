@@ -10,11 +10,16 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v2
           
-        - name: Format code
-          uses: creyD/prettier_action@v3.1
+        - name: Setup Node.js
+          uses: actions/setup-node@v2
           with:
-             prettier_options: --write .
-             commit_message: ✨ format code
-          env:
-             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+             node_version: 14.x
+         
+        - name: Format code
+          run: npx prettier --write .
+          
+        - name: Push to GitHub
+          uses: stefanzweifel/git-auto-commit-action@v4
+          with:
+             commit_message: "✨ format code"
           
