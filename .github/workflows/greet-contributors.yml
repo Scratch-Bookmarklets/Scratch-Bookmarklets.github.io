@@ -1,9 +1,7 @@
 name: "GreetContributor"
-on:
-  schedule:
-    - cron: "0 1 * * *"
-  pull_request:
-    types: [opened,synchronize]
+on: workflow_dispatch
+    pull_request:
+      types: [opened,synchronize]
     
 jobs:
   GreetCommitter:    
