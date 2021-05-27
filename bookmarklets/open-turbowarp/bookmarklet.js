@@ -1,1 +1,3 @@
-window.location.href = `https://turbowarp.org/${window.location.href.substring(33)}`
+window.location.href = `https://turbowarp.org/${window.location.href.substring(
+  33
+)}`;
