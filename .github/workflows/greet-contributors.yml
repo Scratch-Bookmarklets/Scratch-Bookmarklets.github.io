@@ -1,7 +1,7 @@
 name: "GreetContributor"
-on: 
-    pull_request:
-      types: [opened,synchronize]
+on:
+  pull_request:
+    types: [opened,synchronize]
     
 jobs:
   GreetCommitter:    
@@ -11,4 +11,6 @@ jobs:
       uses: ibakshay/greet-contributors-action@test-release
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with: 
+        content: "Thank you to these people for putting time into this pull request."
         
