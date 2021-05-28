@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/stale@v3.0.19
         with:
-          stale-issue-message: 'This issue has had no activity over the past 30 days. In 5 days if this issue still has the stale label or stale comment this issue will be closed.''
+          stale-issue-message: 'This issue has had no activity over the past 30 days. In 5 days if this issue still has the stale label or stale comment this issue will be closed.'
           stale-issue-label: 'issue: stale'
           exempt-issue-milestones: 'Backlog'
           exempt-issue-labels: 'issue: not-stale'
