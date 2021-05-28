@@ -1,0 +1,13 @@
+name: 'Close stale issues and PRs'
+on:
+  schedule:
+    - cron: '00 21 * * *'
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v3.0.19
+        with:
+          exempt-issue-milestones: 'Backlog'
+          
