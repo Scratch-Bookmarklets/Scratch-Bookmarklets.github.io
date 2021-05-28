@@ -1,0 +1,25 @@
+name: Format code using Prettier
+on: [push, pull_request]
+
+jobs:
+  format:
+     name: Format code
+     runs-on: ubuntu-latest
+     
+     steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+          
+        - name: Setup Node.js
+          uses: actions/setup-node@v2
+          with:
+             node_version: 14.x
+         
+        - name: Format code
+          run: npx prettier --write .
+          
+        - name: Push to GitHub
+          uses: stefanzweifel/git-auto-commit-action@v4
+          with:
+             commit_message: "✨ format code"
+          

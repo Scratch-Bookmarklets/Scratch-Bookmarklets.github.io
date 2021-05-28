@@ -1,4 +1,4 @@
-let style = document.createElement("style")
+let style = document.createElement("style");
 
 style.innerHTML = `
 [class^="stage-header_stage-button-icon"] {
@@ -62,6 +62,6 @@ style.innerHTML = `
 
 .Popover {
   z-index: 40;
-}`
+}`;
 
-document.body.appendChild(style)
+document.body.appendChild(style);

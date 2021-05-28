@@ -1,15 +1,20 @@
 # Scratch-Bookmarklets.github.io
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 The site that contains a place to copy the bookmarklets code from, as well as more about the team.
 
 <img src="https://user-images.githubusercontent.com/81493936/118314988-839db680-b4ba-11eb-970d-1a9d380a10af.png" width="1000">
 
-## See the LIVE site at [scratch-bookmarklets.github.io](https://scratch-bookmarklets.github.io)  
-# Have a question?  
-#### Ask us in the discussions! We'll be more than happy to assist you.
+## See the LIVE site at [scratch-bookmarklets.github.io](https://scratch-bookmarklets.github.io)
 
+# Have a question?
+
+#### Ask us in the discussions! We'll be more than happy to assist you.
 
 ## Contributors ✨
 
