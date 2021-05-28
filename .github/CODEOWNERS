@@ -1,5 +1,6 @@
 * @Shluffy
 .github/ @FunctionalMetatable
+.prettierignore @FunctionalMetatable
 .all-contributorsrc @Shluffy
 contributors.html @Shluffy @xItzDiamondx
 *.html @xItzDiamondx
