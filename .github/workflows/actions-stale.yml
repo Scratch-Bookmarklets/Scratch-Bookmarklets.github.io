@@ -9,5 +9,7 @@ jobs:
     steps:
       - uses: actions/stale@v3.0.19
         with:
+          stale-issue-message: 'This issue has had no activity over the past 30 days. In 5 days if this has no more activity this issue will be closed.'
+          stale-pr-message: 'This pull request has had no activity over the past 45 days. In 10 days if this has no more activity this pull request will be closed.'
           exempt-issue-milestones: 'Backlog'
           
