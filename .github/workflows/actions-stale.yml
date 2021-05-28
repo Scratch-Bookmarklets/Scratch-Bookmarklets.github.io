@@ -9,7 +9,16 @@ jobs:
     steps:
       - uses: actions/stale@v3.0.19
         with:
-          stale-issue-message: 'This issue has had no activity over the past 30 days. In 5 days if this has no more activity this issue will be closed.'
-          stale-pr-message: 'This pull request has had no activity over the past 45 days. In 10 days if this has no more activity this pull request will be closed.'
+          stale-issue-message: 'This issue has had no activity over the past 30 days. In 5 days if this issue still has the stale label or stale comment this issue will be closed.''
+          stale-issue-label: 'issue: stale'
           exempt-issue-milestones: 'Backlog'
-          
+          exempt-issue-labels: 'issue: not-stale'
+          days-before-issue-stale: 30
+          days-before-issue-close: 5
+          close-issue-message: 'This issue was closed because it has been stalled for 5 days with no activity.'
+          stale-pr-message: 'This pull request has had no activity over the past 45 days. In 10 days if this pull request still has the stale label or stale comment this pull request will be closed.'
+          exempt-pr-labels: 'pr-status: needs-review'
+          days-before-pr-stale: 45
+          days-before-pr-close: 10
+          close-pr-message: 'This PR was closed because it has been stalled for 10 days with no activity.'
+        
