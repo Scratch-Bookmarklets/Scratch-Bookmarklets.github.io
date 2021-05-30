@@ -1,0 +1,57 @@
+name: mergify.io automatic merging and more!
+  
+on: 
+  schedule:
+  - cron: "0 * * * *"
+
+pull_request_rules:
+  - name: Automatic merge on any PR labeled “mergify.io:merge“
+    conditions:
+      - "#approved-reviews-by>=1"
+      - label="mergify.io:merge"
+      - "#changes-requested-reviews-by=0"
+    actions:
+      merge:
+        method: merge
+  
+  - name: automatic update for PR labeled “mergifyio:update“
+    conditions:
+      - -conflict 
+      - -draft 
+      - label="mergify.io:update"
+    actions:
+      update:
+  
+  - name: automatic merge of any pr labeled “priority-high“
+    conditions:
+      - "#approved-reviews-by>=1
+      - base=master
+      - label="priority-high"
+      - "#changes-requested-reviews-by=0"
+  
+  - name: automatic merge of all-contributors bot (low priority)
+    conditions:
+      - author~=^allcontributors\[bot\]$
+      - "#approved-reviews-by>=1"
+      - base=master
+      - label="mergify.io:merge"
+      
+  - name: delete head branch after merge
+    conditions:
+      - merged
+    actions:
+      delete_head_branch:
+  
+  - name: remove outdated reviews
+    conditions:
+      - base=main
+    actions:
+      dismiss_reviews:
+
+  - name: ask to resolve conflict
+    conditions:
+      - conflict
+    actions:
+        comment:
+          message: This pull request mow has conflicts. Could you fix it @Shluffy?
+         
