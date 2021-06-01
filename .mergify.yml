@@ -1,9 +1,3 @@
-name: mergify.io automatic merging and more!
-  
-on: 
-  schedule:
-  - cron: "0 * * * *"
-
 pull_request_rules:
   - name: Automatic merge on any PR labeled “mergify.io:merge“
     conditions:
