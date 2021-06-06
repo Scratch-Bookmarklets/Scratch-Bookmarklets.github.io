@@ -1,7 +1,9 @@
 # Scratch-Bookmarklets.github.io
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The site that contains a place to copy the bookmarklets code from, as well as more about the team.
