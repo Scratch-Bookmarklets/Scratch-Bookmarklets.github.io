@@ -1,9 +1,7 @@
 # Scratch-Bookmarklets.github.io
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The site that contains a place to copy the bookmarklets code from, as well as more about the team.
@@ -34,6 +32,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://xitzdiamondx.github.io"><img src="https://avatars.githubusercontent.com/u/81493936?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zack</b></sub></a><br /><a href="#content-xItzDiamondx" title="Content">🖋</a> <a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=xItzDiamondx" title="Code">💻</a> <a href="#design-xItzDiamondx" title="Design">🎨</a> <a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/issues?q=author%3AxItzDiamondx" title="Bug reports">🐛</a> <a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=xItzDiamondx" title="Tests">⚠️</a> <a href="#infra-xItzDiamondx" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-xItzDiamondx" title="Maintenance">🚧</a></td>
     <td align="center"><a href="https://scratch.mit.edu/users/brourbeinsus/"><img src="https://avatars.githubusercontent.com/u/79854224?v=4?s=100" width="100px;" alt=""/><br /><sub><b>brourbeinsus</b></sub></a><br /><a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=brourbeinsus" title="Code">💻</a> <a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=brourbeinsus" title="Tests">⚠️</a> <a href="#data-brourbeinsus" title="Data">🔣</a></td>
     <td align="center"><a href="https://zi-youtuber.github.io/My-Website-1/"><img src="https://avatars.githubusercontent.com/u/82158378?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ZI Coder</b></sub></a><br /><a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=ZI-Youtuber" title="Code">💻</a> <a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=ZI-Youtuber" title="Tests">⚠️</a> <a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/issues?q=author%3AZI-Youtuber" title="Bug reports">🐛</a> <a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=ZI-Youtuber" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://theforumhelpers.github.io/"><img src="https://avatars.githubusercontent.com/u/50533878?v=4?s=100" width="100px;" alt=""/><br /><sub><b>The Forum Helpers</b></sub></a><br /><a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=theforumhelpers" title="Code">💻</a></td>
   </tr>
 </table>
 
