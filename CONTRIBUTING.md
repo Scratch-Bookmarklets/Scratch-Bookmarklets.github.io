@@ -19,5 +19,12 @@ Each pull request with a new bookmarklet should change/add a few things.
 - Edit the file `/bookmarklets/bookmarklets.json` and add another row containing the name of the new directory. If you do not add it here the files for the bookmarklet will exist but will not display on the website at [bookmarklets.html](https://scratch-bookmarklets.github.io/bookmarklets.html).
 - In the directory create the file `bookmarklet.js` and add the bookmarklet code into the file here. Do not add the `javascript:` before the code, our system does that automatically.
 - Also in the new directory create the file `manifest.json`. The file should be formatted like this:
-  `{ "name": "<bookmarklet name here>", "authors": [ { "name": "<what you want your name to display as>", "url": "https://<what website you want your name to link to (scratch, github, etc.)>" } ] }` you should also separate the lines.
+  ```{ "name": "<bookmarklet name here>", 
+  "authors": [ 
+  { "name": "<what you want your name to display as>", 
+  "url": "https://<what website you want your name to link to (scratch, github, etc.)>" 
+  } 
+  ] 
+  } 
+ you should also separate the lines.
 - Now make a pull request and wait for it to get reviewed.
