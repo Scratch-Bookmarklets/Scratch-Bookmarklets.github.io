@@ -96,6 +96,15 @@
         "bug",
         "doc"
       ]
+    },
+    {
+      "login": "theforumhelpers",
+      "name": "The Forum Helpers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50533878?v=4",
+      "profile": "https://theforumhelpers.github.io/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 4,
