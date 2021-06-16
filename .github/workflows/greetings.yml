@@ -12,5 +12,5 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Thank you for reporting your first bug! This helps us make the bookmarklets better for everyone to use.'
+        issue-message: 'Thank you for opening your first issue! This helps us make the bookmarklets better.'
         pr-message: 'Thank you for making a pull request. Your new feature or update will help us make a better Scratching enviroment.'
