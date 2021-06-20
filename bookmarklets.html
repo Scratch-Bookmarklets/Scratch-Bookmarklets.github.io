@@ -49,7 +49,7 @@
             newDiv.innerHTML = `<h1>${manifest.name}</h1><h3>by ${authors}</h3>
                     <textarea class="bMarkArea"; id="item${j}">javascript:${javascript
               .replace(/\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$/gm, "$1")
-              .replace(/\r?\n|\r/g, "")}void(0);</textarea>`;
+              .replace(/\r?\n|\r/g, "")}void(0);</textarea><br>`;
             bookmarkletsDiv.appendChild(newDiv);
           }
         });
