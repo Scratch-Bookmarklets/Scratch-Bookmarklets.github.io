@@ -105,6 +105,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "ninjamar",
+      "name": "ninjamar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70116773?v=4",
+      "profile": "https://ninjamar.repl.co",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 4,
