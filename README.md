@@ -1,9 +1,7 @@
 # Scratch-Bookmarklets.github.io
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The site that contains a place to copy the bookmarklets code from, as well as more about the team.
@@ -35,6 +33,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://scratch.mit.edu/users/brourbeinsus/"><img src="https://avatars.githubusercontent.com/u/79854224?v=4?s=100" width="100px;" alt=""/><br /><sub><b>brourbeinsus</b></sub></a><br /><a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=brourbeinsus" title="Code">💻</a> <a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=brourbeinsus" title="Tests">⚠️</a> <a href="#data-brourbeinsus" title="Data">🔣</a></td>
     <td align="center"><a href="https://zi-youtuber.github.io/My-Website-1/"><img src="https://avatars.githubusercontent.com/u/82158378?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ZI Coder</b></sub></a><br /><a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=ZI-Youtuber" title="Code">💻</a> <a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=ZI-Youtuber" title="Tests">⚠️</a> <a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/issues?q=author%3AZI-Youtuber" title="Bug reports">🐛</a> <a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=ZI-Youtuber" title="Documentation">📖</a></td>
     <td align="center"><a href="https://theforumhelpers.github.io/"><img src="https://avatars.githubusercontent.com/u/50533878?v=4?s=100" width="100px;" alt=""/><br /><sub><b>The Forum Helpers</b></sub></a><br /><a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=theforumhelpers" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://ninjamar.repl.co"><img src="https://avatars.githubusercontent.com/u/70116773?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ninjamar</b></sub></a><br /><a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=ninjamar" title="Code">💻</a></td>
   </tr>
 </table>
 
