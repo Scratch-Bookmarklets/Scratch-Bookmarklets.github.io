@@ -3,7 +3,7 @@ name: Question?
 about: Ask a question that you need help with or just an overall question.
 title: "Question: "
 labels: "question"
-assignees: "Shluffy"
+assignees: ""
 ---
 
 **Describe the question**
