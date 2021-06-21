@@ -47,7 +47,7 @@
               authors += `<a href="${manifest.authors[j].url}">${manifest.authors[j].name}</a> ,`;
             }
             newDiv.innerHTML = `<h1>${manifest.name}</h1><h3>by ${authors}</h3>
-                    <textarea class="bMarkArea"; id="item${j}">javascript:${javascript
+                    <textarea class="bMarkArea"; id="item${j} readonly">javascript:${javascript
               .replace(/\/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*$/gm, "$1")
               .replace(/\r?\n|\r/g, "")}void(0);</textarea><br><br><br>`;
             bookmarkletsDiv.appendChild(newDiv);
