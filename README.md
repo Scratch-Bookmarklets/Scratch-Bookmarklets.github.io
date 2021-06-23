@@ -2,7 +2,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
+<div style="text-align: center;"><img style="display: block; margin-left: auto; margin-right: auto; width: 50%;" src="https://img.shields.io/github/all-contributors/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io?style=for-the-badge"/></div>
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
