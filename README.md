@@ -1,9 +1,7 @@
 # Scratch-Bookmarklets.github.io
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 The site that contains a place to copy the bookmarklets code from, as well as more about the team.
@@ -38,6 +36,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://ninjamar.repl.co"><img src="https://avatars.githubusercontent.com/u/70116773?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ninjamar</b></sub></a><br /><a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/commits?author=ninjamar" title="Code">💻</a></td>
+    <td align="center"><a href="http://lankybox01.glitch.me"><img src="https://avatars.githubusercontent.com/u/79767244?v=4?s=100" width="100px;" alt=""/><br /><sub><b>LankyBox01</b></sub></a><br /><a href="https://github.com/Scratch-Bookmarklets/Scratch-Bookmarklets.github.io/issues?q=author%3Acodeguy92" title="Bug reports">🐛</a> <a href="#ideas-codeguy92" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
