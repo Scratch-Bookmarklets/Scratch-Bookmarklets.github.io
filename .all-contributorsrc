@@ -114,6 +114,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "codeguy92",
+      "name": "LankyBox01",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79767244?v=4",
+      "profile": "http://lankybox01.glitch.me",
+      "contributions": [
+        "bug",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 4,
