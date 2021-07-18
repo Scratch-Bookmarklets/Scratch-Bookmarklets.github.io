@@ -24,9 +24,7 @@
     <br /><br /><br /><br />
     <div id="bookmarklets"></div>
     <script>
-      let host = location.hostname;
-      if (host == "") host = "Scratch-Bookmarklets.github.io";
-      host = "https://" + host;
+      let host = "https://scratch-boookmarklets.github.io"; //When using this on a fork change to "<your github username>.github.io/<repository name>"
       let bookmarkletsDiv = document.querySelector("#bookmarklets");
       fetch(`${host}/bookmarklets/bookmarklets.json`)
         .then((res) => res.json())
