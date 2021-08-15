@@ -13,4 +13,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: 'Thank you for opening your first issue! This will help us improve the site/bookmarklet.'
-        pr-message: 'Thank you for making a pull request. Your code will help us have a better website/new bookmarklet.'
+        pr-message: 'Thank you for making a pull request and contributing to our repository. Your code will help us have a better website/new bookmarklet.'
